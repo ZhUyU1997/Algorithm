@@ -1,5 +1,9 @@
-//Êý×éÖÐµÄµÚK¸ö×î´óÔªËØ
-//https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
+/*
+ * @lc app=leetcode.cn id=215 lang=c
+ *
+ * [215] æ•°ç»„ä¸­çš„ç¬¬Kä¸ªæœ€å¤§å…ƒç´ 
+ */
+
 
 struct heap_t {
 	int *arr;
@@ -41,3 +45,4 @@ int findKthLargest(int* nums, int numsSize, int k){
     }     
     return heap.arr[0];
 }
+
